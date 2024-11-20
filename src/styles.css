@@ -1,0 +1,75 @@
+/* Estilo de mi api */
+.app {
+  background-color: #EBDEF0; /* Morado claro para el fondo */
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Estilo del título */
+.app-title {
+  text-align: center;
+  color: #FDFEFE; 
+  font-size: 2.7em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Contenedor de la lista de productos */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Espacio uniforme entre tarjetas */
+  padding: 30px;
+  width: 100%; /* Aseguro que las tarjetas ocupen todo el ancho disponible */
+  box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+}
+
+/* Tarjeta de producto */
+.product-card {
+  width: 200px; /* Tamaño consistente */
+  height: auto; /* Permitir que la tarjeta crezca según el contenido */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+  background-color: #FCF6F9; /* Fondo */
+  padding: 15px;
+  text-align: center;
+  border: 3px solid #dcbee7; /* Borde rosita pastel */
+  overflow: hidden; /* Oculta el contenido que se desborda */
+}
+
+/* Imágenes del producto */
+.product-image {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: 150px; /* Altura fija */
+  object-fit: contain; /* Escala la imagen sin recortarla */
+  border-radius: 10px; /* Bordes redondeados para las imágenes */
+  background-color: #f8f8f8; /* Fondo para imágenes con transparencia */
+  margin-bottom: 15px;
+  border: 2px solid #d186dea2; /* Borde morado */
+}
+
+/* Nombre del producto */
+.product-name {
+  font-size: 1em;
+  color: #cd7ae3; /* Morado oscuro */
+  font-weight: bold;
+  margin: 5px 0;
+  text-align: center;
+  line-height: 1.2;
+  word-wrap: break-word; /* Romper palabras largas */
+}
+
+/* Precio */
+.product-price {
+  font-size: 0.9em;
+  color: #17202A; /* Gris oscuro */
+  text-align: center;
+  margin-top: 10px;
+}
